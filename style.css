@@ -32,14 +32,14 @@ body {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
 }
 
+/* Buttons grid layout */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
 }
 
-
-/* Buttons */
+/* Button styles */
 button {
     height: 60px;
     border: none;
@@ -50,27 +50,28 @@ button {
     transition: 0.2s ease-in-out;
 }
 
-/* Hover */
+/* Hover effect */
 button:hover {
     background: #d4d4d4;
     transform: scale(1.05);
 }
 
-/* Special buttons */
-button:nth-child(1) {
+/* Clear button (C) */
+button:nth-child(14) {
     background: #ff6b6b;
     color: white;
 }
 
-button:nth-child(1):hover {
+button:nth-child(14):hover {
     background: #ff4c4c;
 }
 
-button:nth-child(16) {
+/* Equals button (=) */
+button:nth-child(15) {
     background: #6bd76b;
     color: white;
 }
 
-button:nth-child(16):hover {
+button:nth-child(15):hover {
     background: #47c447;
 }
